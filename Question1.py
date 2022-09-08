@@ -8,13 +8,13 @@ x = True
 while x:  
     if (len(p)<6 or len(p)<8):
         break
-    elif not re.search("[a-z]",p):
+    elif not re.search("[a-z]",p): #checks for lowercase letters
         break
-    elif not re.search("[0-9]",p):
+    elif not re.search("[0-9]",p): #checks for numbers
         break
-    elif not re.search("[A-Z]",p):
+    elif not re.search("[A-Z]",p): #checks for uppercase letters
         break
-    elif not re.search("[$#@]",p):
+    elif not re.search("[$#@]",p): #checks for special characters
         break
     elif re.search("\s",p):
         break

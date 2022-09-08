@@ -7,20 +7,20 @@
 
 import random #random number generator
 
-chicken = random.randint(1,10) #random number pool
+computer = random.randint(1,10) #random number pool
 player = 0 #score keeper
 tries=0    # tries keeper could do a fails one but who likes that :)
 
-print("Guess a number game")
+print("\n -----------Guess a number game----------- \n")
 
-while(player != chicken):
-    player = int(input('Enter your guess: '))
+while(player != computer):
+    player = int(input('Enter your guess 1 - 10: '))
     tries = tries + 1 #counts the amount of tries
     
     #loop for the tries. 
-    if player < chicken:
+    if player < computer:
         print('To low, try again.')
-    elif player > chicken:
+    elif player > computer:
         print ('To high, try again.')
     else:
         print ("Correct!,you got it in",+tries,"tries")

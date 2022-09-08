@@ -3,8 +3,8 @@
 #two successive terms gives the third term.
 #Following are the first 10 terms of the Fibonacci sequence:
 #0 1 1 2 3 5 8 13 21 34
-
-terms = int(input("Enter a number between 1 & 10: ")) #how many items we want from user 
+print ('\n The Fibonacci sequence is a type series where each number is the sum of the two that precede it. \n')
+terms = int(input("Enter a number between 1 & 10 to show a sequence of Fibonacci sequence: ")) #how many items we want from user 
 
 n1,n2=0,1 #n1/2 first two items in the list so we know where to start
 counted = 0 #number of terms we have calculated based on user input

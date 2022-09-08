@@ -13,10 +13,11 @@
 #Your grade is D
 
 
-print('Student grade calculator!!!')
+print('\n' '------- Student grade calculator!!! -----''\n')
 
-score = float(input('Enter students score: '))
+score = float(input('Enter students score: ')) #used a float for partial scores
 
+#grade calculations 
 if score >=90:
     grade = 'A'
 elif score >=80:

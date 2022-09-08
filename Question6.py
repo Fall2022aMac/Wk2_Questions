@@ -11,6 +11,7 @@
 # Discount: 440.0
 # Your net bill amount is 1760.0
 
+print ('\n''---- Discount and price calculator ------- \n')
 price = float(input('Enter price of product: $'))
 quant = float(input('Enter how many:   '))
 total = price * quant
